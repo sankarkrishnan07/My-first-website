@@ -84,3 +84,15 @@ hr{
     background-color: var(--secondary-color);
     padding: 2rem;
 }
+
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+.non-white{
+    background-color: var(--secondary-color);
+}
