@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+:root {
+    --primary-color : #D97706;
+    --secondary-color : #D1D5DB;
+}
 body {
     font-family: 'Questrial', sans-serif;
 }
@@ -15,4 +19,22 @@ hr{
 .container-center{
     margin: auto;
     width: 500px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.70rem 2rem;
+    text-align: center;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border : 0.5px solid var(--primary-color)
 }
