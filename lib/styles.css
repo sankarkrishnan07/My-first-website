@@ -13,7 +13,7 @@ hr{
 }
 
 .container{
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .container-center{
@@ -37,4 +37,34 @@ hr{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border : 0.5px solid var(--primary-color)
+}
+
+.list-nonbullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 1rem 1rem;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.brand{
+    font-weight: bold;
+}
+
+.nav .color{
+    color: white;
+}
+.nav-position{
+    text-align: right;
+}
+
+.active{
+    font-weight: bold;
 }
