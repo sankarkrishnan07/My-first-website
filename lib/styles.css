@@ -68,3 +68,19 @@ hr{
 .active{
     font-weight: bold;
 }
+
+.head{
+    padding: 2rem;
+}
+
+.head-img{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.head-text{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 2rem;
+}
