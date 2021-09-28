@@ -16,7 +16,7 @@ body{
 
 header{
     background-color: var(--primary-color);
-    padding: 2rem 2rem;
+    padding: 0.5rem 2rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -41,6 +41,7 @@ a{
 
 .nav{
     text-align: right;
+    padding: 1rem;
 }
 
 /* Header image styling */
@@ -117,4 +118,40 @@ section{
 .outro h3{
     color: var(--primary-color);
     font-size: 1.5rem;
+}
+
+/* footer styling */
+
+footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.learn{
+    margin-top: -8%;
+    margin-right: 5%;
+    margin-bottom: -11%;
+    width: 200px;
+    height: 200px;
+}
+
+ 
+.project{
+    margin-top: -13%;
+    margin-right: 5%;
+    margin-bottom: -6%;
+    width: 200px;
+    height: 200px;
+}
+
+.blog{
+    margin-top: -11%;
+    margin-right: 5%;
+    margin-bottom: -4%;
+    width: 200px;
+    height: 150px;
 }
