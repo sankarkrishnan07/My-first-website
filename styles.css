@@ -70,11 +70,13 @@ span{
     font-size: x-large;
 }
 
-/* section styling */
+/*project section styling */
 
 section{
     padding: 2rem 2rem;
     border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    margin: 1rem;
     /* text-align: center; */
 }
 .non-white{
@@ -85,6 +87,19 @@ section{
     background-color: var(--primary-color);
     border-radius: 2rem;
     font-size: 17.5px;
-    padding: 1rem 2rem;
-    margin-left: 1rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    color: white;
+}
+
+/* blog section styling */
+
+.experience{
+    background-color: white;
+    border-radius: 2rem;
+    font-size: 17.5px;
+    padding: 0.5rem 3rem;
+    margin: 1rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
