@@ -103,3 +103,18 @@ section{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+/* outro styling */
+.outro{
+    text-align: center;
+    margin: 2rem;
+}
+
+.outro p{
+    padding: 0.25rem;
+}
+
+.outro h3{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
