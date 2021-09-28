@@ -5,14 +5,18 @@
     --secondary-color : #A7F3D0;
 }
 
+/* body styling */
+
 body{
     font-family: 'Questrial', sans-serif;
-    /* margin:auto; */
+    /* margin:0px; */
 }
+
+/* header section styling */
 
 header{
     background-color: var(--primary-color);
-    padding: 1.5rem 3rem;
+    padding: 2rem 2rem;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
@@ -30,4 +34,14 @@ a{
 
 .nav{
     text-align: right;
+}
+
+/* Header image styling */
+
+img{
+    display: block;
+    margin: auto;
+    width: 500px;
+    padding: 2rem 2rem;
+    
 }
