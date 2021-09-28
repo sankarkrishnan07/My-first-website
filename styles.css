@@ -17,19 +17,26 @@ body{
 header{
     background-color: var(--primary-color);
     padding: 2rem 2rem;
-    border-top-right-radius: 2rem;
-    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 header h2{
     text-align: center;
     font-size: 1.25rem;
+    color: white;
 }
 
 a{ 
     text-decoration: none;
     font-size: 1.25rem;
     padding: 1rem 1rem;
+    color: black;
+}
+
+.active{
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 .nav{
@@ -47,6 +54,11 @@ img{
     
 }
 
+p{
+    font-size: 18px;
+    padding: 1rem 1rem;
+}
+
 /* intro styling */
 
 .intro{
@@ -56,4 +68,23 @@ img{
 span{
     color: var(--primary-color);
     font-size: x-large;
+}
+
+/* section styling */
+
+section{
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    /* text-align: center; */
+}
+.non-white{
+    background-color: var(--secondary-color);
+}
+
+.explore{
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    font-size: 17.5px;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
 }
