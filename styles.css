@@ -127,7 +127,7 @@ section{
 footer{
     text-align: center;
     background-color: var(--primary-color);
-    padding: 1rem 2rem;
+    padding: 0.25rem 2rem;
     margin: 1rem 0;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -167,19 +167,19 @@ footer img{
 }
 
 /* css styling */
-ul{
+ol{
     text-align: center;
     list-style: none;
 }
 
-ul .explore{
+ol .explore{
     background-color: var(--primary-color);
     border-radius: 2rem;
     height: 20px;
     padding: 10px 20px; 
 }
 
-ul .experience{
+ol .experience{
     background-color: white;
     border-radius: 2rem;
     height: 20px;
@@ -187,7 +187,7 @@ ul .experience{
     border: 1px solid var(--primary-color);
 } 
  
-ul img{
+ol img{
     display: inline;
     width:100px;
 }
